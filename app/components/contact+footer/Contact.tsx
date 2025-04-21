@@ -73,7 +73,7 @@ export default function Contact() {
         },
         (error) => {
           console.log("FAILED...", error.text);
-          toast.error("Message not sent, check your network", {
+          toast.error("Message not sent, check your network and come back", {
             position: "bottom-left",
             autoClose: 3000,
             hideProgressBar: false,
